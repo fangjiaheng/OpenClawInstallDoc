@@ -60,3 +60,4 @@ openclaw onboard --install-daemon
 
 - [OpenClaw 官方文档](https://docs.openclaw.ai/zh-CN)
 - [GitHub 仓库](https://github.com/openclaw/openclaw)
+- [Node.js 官网](https://nodejs.org/zh-cn)

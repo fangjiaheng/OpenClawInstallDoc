@@ -23,6 +23,7 @@ export default defineConfig({
         activeMatch: '/install/',
       },
       { text: '技能市场', link: '/market/' },
+      { text: '技术支持', link: '/support/' },
     ],
 
     sidebar: [
