@@ -2,22 +2,13 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'OpenClaw',
+  title: 'OpenClaw 安装指南',
   description: '真正能做事的 AI — 开源免费的 Claude 中文社区版',
 
   ignoreDeadLinks: true,
 
   head: [
     ['link', { rel: 'icon', href: '/assets/pixel-lobster.svg', type: 'image/svg+xml' }],
-    ['meta', { name: 'keywords', content: 'OpenClaw, Claude, AI助手, 中文社区, 开源' }],
-    ['meta', { name: 'author', content: 'OpenClaw-CN' }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'OpenClaw — 真正能做事的 AI' }],
-    ['meta', { property: 'og:description', content: '开源免费的 Claude 中文社区版，支持飞书、微信、Telegram 等多平台' }],
-    ['meta', { property: 'og:image', content: '/assets/share_image.png' }],
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'OpenClaw — 真正能做事的 AI' }],
-    ['meta', { name: 'twitter:image', content: '/assets/share_image.png' }],
   ],
 
   themeConfig: {
@@ -26,7 +17,6 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '快速开始', link: '/start/getting-started' },
       {
         text: '安装',
         link: '/install/',
@@ -37,15 +27,14 @@ export default defineConfig({
 
     sidebar: [
         {
-          text: '快速开始',
+          text: '安装',
           collapsed: true,
           items: [
-            { text: '入门指南', link: '/start/getting-started' },
-            { text: '安装向导', link: '/start/wizard' },
-            { text: '更新', link: '/start/updating' },
-            { text: '设置', link: '/start/setup' },
-            { text: '配对', link: '/start/pairing' },
-            { text: 'Clawd 助手', link: '/start/assistant' },
+            { text: '安装概述', link: '/install/' },
+            { text: 'Docker', link: '/install/docker' },
+            { text: 'Node.js', link: '/install/node' },
+            { text: '更新', link: '/install/updating' },
+            { text: '卸载', link: '/install/uninstall' },
           ],
         },
         {
@@ -59,19 +48,6 @@ export default defineConfig({
             { text: 'Telegram', link: '/channels/telegram' },
             { text: 'WhatsApp', link: '/channels/whatsapp' },
             { text: 'iMessage', link: '/channels/imessage' },
-          ],
-        },
-        {
-          text: '安装',
-          collapsed: true,
-          items: [
-            { text: '安装概述', link: '/install/' },
-            { text: '安装脚本', link: '/install/installer' },
-            { text: '更新', link: '/install/updating' },
-            { text: 'Docker 快速部署', link: '/install/docker-quick' },
-            { text: 'Docker 完整部署', link: '/install/docker' },
-            { text: 'Node.js', link: '/install/node' },
-            { text: '卸载', link: '/install/uninstall' },
           ],
         },
         // {
@@ -134,27 +110,6 @@ export default defineConfig({
     footer: {
       message: '基于 MIT 许可发布',
       copyright: 'Copyright © 2026-present OpenClaw-CN',
-    },
-
-    search: {
-      provider: 'local',
-      options: {
-        translations: {
-          button: {
-            buttonText: '搜索文档',
-            buttonAriaLabel: '搜索文档',
-          },
-          modal: {
-            noResultsText: '无法找到相关结果',
-            resetButtonTitle: '清除查询条件',
-            footer: {
-              selectText: '选择',
-              navigateText: '切换',
-              closeText: '关闭',
-            },
-          },
-        },
-      },
     },
 
     lastUpdated: {
