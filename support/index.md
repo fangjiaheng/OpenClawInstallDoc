@@ -161,10 +161,10 @@ next: false
   <ul class="service-list">
     <li><strong>找不到合适的 AI 服务？</strong> - 我们提供专业的技术支持</li>
     <li><strong>企业级部署方案</strong> - 为您的团队定制最佳部署配置</li>
-    <li><strong>Claude Code</strong> -  当前最流行和性能最强的AI之一</li>
-    <li><strong>为你提供可靠的中转服务</strong> - 仅需0.8元/刀</li>
-    <li><strong>后台支持试试查询用量</strong> - 无需担忧小龙虾大量耗费Token欠费的问题</li>
-    <li><strong>技术24小时提供支持</strong> - 为你解决封号和用不了的后顾之忧</li>
+    <li><strong>Claude API 中转服务</strong> - 当前最流行和性能最强的 AI 之一</li>
+    <li><strong>可靠稳定的中转通道</strong> - 仅需 0.8 元/刀，价格实惠</li>
+    <li><strong>后台实时查询用量</strong> - 无需担忧 OpenClaw 大量消耗 Token 导致欠费</li>
+    <li><strong>24 小时技术支持</strong> - 解决封号、连接等各类问题</li>
   </ul>
 </div>
 
@@ -172,7 +172,7 @@ next: false
   <h2>📱 联系我们</h2>
   <div class="contact-info">
     <div class="contact-item">
-      <img src="../images/WechatQRCode.jpg" alt="微信二维码" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; margin: 1rem auto; display: block;">
+      <img src="../images/WechatQRCode.jpg" alt="微信二维码">
     </div>
   </div>
 </div>

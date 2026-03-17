@@ -6,7 +6,8 @@ hero:
   text: 真正能做事的 AI
   tagline: "🆓 开源免费 · 🔒 本地运行 · 💬 多平台支持"
   image:
-    src: /assets/openclaw-logo-text.avif
+    light: /assets/openclaw-logo-text-dark.avif
+    dark: /assets/openclaw-logo-text.avif
     alt: OpenClaw
   actions:
     - theme: brand
