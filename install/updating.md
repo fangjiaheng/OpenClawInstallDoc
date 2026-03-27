@@ -144,7 +144,7 @@ openclaw-cn gateway restart
 
 ### 问题 2：消息通道断开
 
-**症状**：Telegram/微信/飞书等通道无法收发消息
+**症状**：Telegram/企业微信/飞书等通道无法收发消息
 
 **排查步骤**：
 
